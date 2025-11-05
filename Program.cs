@@ -43,7 +43,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
-        policy.WithOrigins("https://bazar-jaqueline.netlify.app")
+        policy.WithOrigins("https://jaqui-bazar.netlify.app")
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
